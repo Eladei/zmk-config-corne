@@ -68,10 +68,10 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE        &kp UP_ARROW    &kp UP_ARROW    &kp UP_ARROW    &kp              &kp    &kp           &kp N7        &kp N8        &kp NUMBER_9  &kp SLASH  &kp ASTERISK
-&kp LEFT_SHIFT    &kp LEFT_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp    &kp           &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp PLUS
-&kp LEFT_CONTROL  &kp             &kp             &kp             &kp              &kp    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT    &kp ENTER
-                                                  &kp             &kp              &kp    &kp           &kp           &kp
+&kp ESCAPE        &trans  &trans          &kp UP_ARROW    &trans           &trans    &trans        &kp N7        &kp N8        &kp NUMBER_9  &kp SLASH  &kp ASTERISK
+&kp LEFT_SHIFT    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans    &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp PLUS
+&kp LEFT_CONTROL  &trans  &trans          &trans          &trans           &trans    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT    &kp ENTER
+                                          &trans          &trans           &trans    &trans        &trans        &trans
             >;
         };
 
@@ -85,7 +85,7 @@
             bindings = <
 &kp F1      &kp F2       &kp F3    &kp F4        &kp F5        &kp F6             &kp F7        &kp F8         &kp F9    &kp F10   &kp F11    &kp F12
 &kp ESCAPE  &kp PERCENT  &kp LBRC  &kp LBKT      &kp LPAR      &kp PIPE           &kp AMPS      &kp RPAR       &kp RBKT  &kp RBRC  &kp BSLH   &kp GRAVE
-&kp LSHFT   &kp CARET    &kp       &kp DOLLAR    &kp AT_SIGN   &kp EXCLAMATION    &kp QUESTION  &kp AMPS       &kp LBRC  &kp RBRC  &kp UNDER  &kp TILDE
+&kp LSHFT   &kp CARET    &trans    &kp DOLLAR    &kp AT_SIGN   &kp EXCLAMATION    &kp QUESTION  &kp AMPS       &kp LBRC  &kp RBRC  &kp UNDER  &kp TILDE
                                    &out OUT_TOG  &kp LEFT_WIN  &kp SPACE          &kp RET       &kp BACKSPACE  &kp RALT
             >;
         };
