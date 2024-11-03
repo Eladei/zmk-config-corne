@@ -68,10 +68,10 @@
 
         layer_1 {
             bindings = <
-&kp  &kp UP_ARROW    &kp UP_ARROW    &kp UP_ARROW    &kp              &kp    &kp           &kp N7        &kp N8        &kp NUMBER_9  &kp SLASH  &kp ASTERISK
-&kp  &kp LEFT_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp    &kp           &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp PLUS
-&kp  &kp             &kp             &kp             &kp              &kp    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT    &kp ENTER
-                                     &kp             &kp              &kp    &kp           &kp           &kp
+&kp ESCAPE  &kp UP_ARROW    &kp UP_ARROW    &kp UP_ARROW    &kp              &kp    &kp           &kp N7        &kp N8        &kp NUMBER_9  &kp SLASH  &kp ASTERISK
+&kp         &kp LEFT_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp    &kp           &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp PLUS
+&kp         &kp             &kp             &kp             &kp              &kp    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT    &kp ENTER
+                                            &kp             &kp              &kp    &kp           &kp           &kp
             >;
         };
 
