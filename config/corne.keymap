@@ -82,19 +82,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F1     &kp F2            &kp F3                 &kp F4        &kp F5        &kp F6       &kp F7                &kp F8     &kp F9    &kp F10                &kp F11   &kp F12
-&kp TILDE  &kp LS(NUMBER_1)  &kp NUMBER_3           &kp NUMBER_2  &kp N5        &kp PIPE     &kp NUMBER_1          &kp N8     &kp N0    &kp NUMBER_4           &kp BSLH  &kp LS(EQUAL)
-&kp LSHFT  &none             &kp LS(RIGHT_BRACKET)  &kp W         &kp LS(W)     &kp MINUS    &kp LS(LEFT_BRACKET)  &kp LS(E)  &kp W     &kp LS(DOUBLE_QUOTES)  &none     &none
-                                                    &kp LEFT_ALT  &kp LEFT_WIN  &kp SPACE    &kp RET               &none      &kp RALT
+&kp F1          &kp F2            &kp F3                 &kp F4        &kp F5        &kp F6       &kp F7                &kp F8     &kp F9             &kp F10                &kp F11   &kp F12
+&kp LEFT_SHIFT  &kp LS(NUMBER_1)  &kp NUMBER_3           &kp NUMBER_2  &kp N5        &kp PIPE     &kp NUMBER_1          &kp N8     &kp N0             &kp NUMBER_4           &kp BSLH  &kp LS(EQUAL)
+&none           &kp TILDE         &kp LS(RIGHT_BRACKET)  &kp GRAVE     &kp LS(W)     &kp MINUS    &kp LS(LEFT_BRACKET)  &kp LS(E)  &kp RIGHT_BRACKET  &kp LS(DOUBLE_QUOTES)  &none     &none
+                                                         &kp LEFT_ALT  &kp LEFT_WIN  &kp SPACE    &kp RET               &none      &kp RALT
             >;
         };
 
         layer_qwerty_special_symbols {
             bindings = <
-&kp F1     &kp F2       &kp F3     &kp F4        &kp F5         &kp F6             &kp F7        &kp F8            &kp F9       &kp F10         &kp F11   &kp F12
-&kp TILDE  &kp PERCENT  &kp LBRC   &kp LBKT      &kp LPAR       &kp PIPE           &kp AMPS      &kp RPAR          &kp RBKT     &kp RBRC        &kp BSLH  &kp GRAVE
-&kp LSHFT  &none        &kp CARET  &kp DOLLAR    &kp LESS_THAN  &kp EXCLAMATION    &kp QUESTION  &kp GREATER_THAN  &kp AT_SIGN  &kp UNDERSCORE  &none     &none
-                                   &kp LEFT_ALT  &kp LEFT_WIN   &kp SPACE          &kp RET       &none             &kp RALT
+&kp F1          &kp F2       &kp F3     &kp F4        &kp F5         &kp F6             &kp F7        &kp F8            &kp F9       &kp F10         &kp F11   &kp F12
+&kp LEFT_SHIFT  &kp PERCENT  &kp LBRC   &kp LBKT      &kp LPAR       &kp PIPE           &kp AMPS      &kp RPAR          &kp RBKT     &kp RBRC        &kp BSLH  &kp GRAVE
+&none           &kp TILDE    &kp CARET  &kp DOLLAR    &kp LESS_THAN  &kp EXCLAMATION    &kp QUESTION  &kp GREATER_THAN  &kp AT_SIGN  &kp UNDERSCORE  &none     &none
+                                        &kp LEFT_ALT  &kp LEFT_WIN   &kp SPACE          &kp RET       &none             &kp RALT
             >;
         };
     };
