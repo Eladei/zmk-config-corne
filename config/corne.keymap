@@ -83,7 +83,7 @@
 
             bindings = <
 &kp F1  &kp F2            &kp F3                 &kp F4            &kp F5     &kp F6       &kp F7                &kp F8     &kp F9             &kp F10                &kp F11        &kp F12
-&none   &kp LS(NUMBER_1)  &kp NUMBER_3           &kp NUMBER_2      &kp N5     &kp PIPE     &kp NUMBER_1          &kp N8     &kp N0             &kp NUMBER_4           &kp BSLH       &none
+&none   &kp LS(NUMBER_1)  &kp NUMBER_2           &kp NUMBER_3      &kp N5     &kp PIPE     &kp NUMBER_1          &kp N8     &kp NUMBER_4       &kp N0                 &kp BSLH       &none
 &none   &kp TILDE         &kp LS(RIGHT_BRACKET)  &kp GRAVE         &kp LS(W)  &kp MINUS    &kp LS(LEFT_BRACKET)  &kp LS(E)  &kp RIGHT_BRACKET  &kp LS(DOUBLE_QUOTES)  &kp LS(EQUAL)  &none
                                                  &kp LEFT_CONTROL  &none      &none        &none                 &none      &kp RIGHT_ALT
             >;
@@ -91,10 +91,10 @@
 
         layer_qwerty_special_symbols {
             bindings = <
-&kp F1  &kp F2       &kp F3     &kp F4            &kp F5         &kp F6             &kp F7        &kp F8            &kp F9         &kp F10         &kp F11    &kp F12
-&none   &kp PERCENT  &kp LBRC   &kp LBKT          &kp LPAR       &kp PIPE           &kp AMPS      &kp RPAR          &kp RBKT       &kp RBRC        &kp BSLH   &none
-&none   &kp TILDE    &kp CARET  &kp DOLLAR        &kp LESS_THAN  &kp EXCLAMATION    &kp QUESTION  &kp GREATER_THAN  &kp AT_SIGN    &kp UNDERSCORE  &kp GRAVE  &none
-                                &kp LEFT_CONTROL  &none          &none              &none         &none             &kp RIGHT_ALT
+&kp F1  &kp F2       &kp F3            &kp F4            &kp F5         &kp F6             &kp F7        &kp F8            &kp F9           &kp F10            &kp F11    &kp F12
+&none   &kp PERCENT  &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp LPAR       &kp PIPE           &kp AMPS      &kp RPAR          &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp BSLH   &none
+&none   &kp TILDE    &kp CARET         &kp DOLLAR        &kp LESS_THAN  &kp EXCLAMATION    &kp QUESTION  &kp GREATER_THAN  &kp AT_SIGN      &kp UNDERSCORE     &kp GRAVE  &none
+                                       &kp LEFT_CONTROL  &none          &none              &none         &none             &kp RIGHT_ALT
             >;
         };
     };
