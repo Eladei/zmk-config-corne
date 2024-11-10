@@ -65,16 +65,16 @@
             >;
         };
 
-        calc_arrows_and_special_keys {
+        calc_and_arrows {
             bindings = <
 &kp ESCAPE      &none                &kp LC(BACKSPACE)  &kp UP_ARROW    &kp LC(DELETE)      &kp C_VOLUME_UP       &none                &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SLASH  &kp KP_ASTERISK
 &kp BACKSPACE   &kp LEFT_SHIFT       &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW     &kp C_VOLUME_DOWN     &kp C_AL_CALCULATOR  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS  &kp KP_PLUS
 &kp LA(ESCAPE)  &kp LA(PRINTSCREEN)  &kp LC(INSERT)     &kp LS(INSERT)  &kp LC(LEFT_SHIFT)  &kp LC(LA(DELETE))    &none                &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT    &kp KP_ENTER
-                                                        &kp LS(DELETE)  &none               &none                 &none                &kp KP_NUMBER_0  &none
+                                                        &kp LS(DELETE)  &none               &kp LEFT_CONTROL      &kp RIGHT_ALT        &kp KP_NUMBER_0  &none
             >;
         };
 
-        layer_dvorak_special_symbols {
+        special_keys {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -82,19 +82,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F1  &kp F2            &kp F3                 &kp F4            &kp F5     &kp F6       &kp F7                &kp F8     &kp F9             &kp F10                &kp F11        &kp F12
-&none   &kp LS(NUMBER_1)  &kp NUMBER_2           &kp NUMBER_3      &kp N5     &kp PIPE     &kp NUMBER_1          &kp N8     &kp NUMBER_4       &kp N0                 &kp BSLH       &none
-&none   &kp TILDE         &kp LS(RIGHT_BRACKET)  &kp GRAVE         &kp LS(W)  &kp MINUS    &kp LS(LEFT_BRACKET)  &kp LS(E)  &kp RIGHT_BRACKET  &kp LS(DOUBLE_QUOTES)  &kp LS(EQUAL)  &none
-                                                 &kp LEFT_CONTROL  &none      &none        &none                 &none      &kp RIGHT_ALT
-            >;
-        };
-
-        layer_qwerty_special_symbols {
-            bindings = <
-&kp F1  &kp F2       &kp F3            &kp F4            &kp F5         &kp F6             &kp F7        &kp F8            &kp F9           &kp F10            &kp F11    &kp F12
-&none   &kp PERCENT  &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp LPAR       &kp PIPE           &kp AMPS      &kp RPAR          &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp BSLH   &none
-&none   &kp TILDE    &kp CARET         &kp DOLLAR        &kp LESS_THAN  &kp EXCLAMATION    &kp QUESTION  &kp GREATER_THAN  &kp AT_SIGN      &kp UNDERSCORE     &kp GRAVE  &none
-                                       &kp LEFT_CONTROL  &none          &none              &none         &none             &kp RIGHT_ALT
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6              &kp F7         &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&none   &none   &none   &none   &none   &none               &none          &none   &none   &none    &none    &none
+&none   &none   &none   &none   &none   &none               &none          &none   &none   &none    &none    &none
+                        &none   &none   &kp LEFT_CONTROL    &kp RIGHT_ALT  &none   &none
             >;
         };
     };
