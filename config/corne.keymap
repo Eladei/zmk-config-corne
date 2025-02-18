@@ -72,7 +72,7 @@
 &none  &kp Q  &kp W  &kp E  &kp R             &kp T                           &kp Y                     &kp U            &kp I      &kp O    &kp P          &kp LEFT_BRACKET
 &none  &kp A  &kp S  &kp D  &hrm LSHFT F      &kp G                           &kp H                     &hrm RSHFT J     &kp K      &kp L    &kp SEMICOLON  &kp SQT
 &none  &kp Z  &kp X  &kp C  &kp V             &kp B                           &kp N                     &kp M            &kp COMMA  &kp DOT  &kp SLASH      &none
-                     &none  &hrm SPACE LCTRL  &hrm_with_layers 1 BACKSPACE    &hrm_with_layers 2 ENTER  &hrm SPACE RALT  &none
+                     &none  &hrm LCTRL SPACE  &hrm_with_layers 1 BACKSPACE    &hrm_with_layers 2 ENTER  &hrm RALT SPACE  &none
             >;
         };
 
