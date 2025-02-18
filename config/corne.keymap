@@ -45,6 +45,17 @@
             require-prior-idle-ms = <125>;
             bindings = <&kp>, <&kp>;
         };
+
+        hrm_with_layers: hrm_with_layers {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <125>;
+            label = "HRM_WITH_LAYERS";
+            bindings = <&mo>, <&kp>;
+        };
     };
 
     keymap {
@@ -58,10 +69,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q  &kp W  &kp E  &kp R             &kp T            &kp Y      &kp U            &kp I      &kp O    &kp P          &kp LEFT_BRACKET
-&none  &kp A  &kp S  &kp D  &hrm LSHFT F      &kp G            &kp H      &hrm RSHFT J     &kp K      &kp L    &kp SEMICOLON  &kp SQT
-&none  &kp Z  &kp X  &kp C  &kp V             &kp B            &kp N      &kp M            &kp COMMA  &kp DOT  &kp SLASH      &none
-                     &mo 1  &hrm SPACE LCTRL  &kp BACKSPACE    &kp ENTER  &hrm SPACE RALT  &mo 2
+&none  &kp Q  &kp W  &kp E  &kp R             &kp T                           &kp Y                     &kp U            &kp I      &kp O    &kp P          &kp LEFT_BRACKET
+&none  &kp A  &kp S  &kp D  &hrm LSHFT F      &kp G                           &kp H                     &hrm RSHFT J     &kp K      &kp L    &kp SEMICOLON  &kp SQT
+&none  &kp Z  &kp X  &kp C  &kp V             &kp B                           &kp N                     &kp M            &kp COMMA  &kp DOT  &kp SLASH      &none
+                     &none  &hrm SPACE LCTRL  &hrm_with_layers 1 BACKSPACE    &hrm_with_layers 2 ENTER  &hrm SPACE RALT  &none
             >;
         };
 
