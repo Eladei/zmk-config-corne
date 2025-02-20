@@ -9,7 +9,6 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/pointing.h>
@@ -85,10 +84,10 @@
 
         calc_and_operations {
             bindings = <
-&out OUT_BLE  &out OUT_USB  &none  &none  &kp C_VOLUME_UP    &none    &kp KP_SLASH   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY  &none
-&none         &none         &none  &none  &kp C_VOLUME_DOWN  &none    &kp KP_MINUS   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &none
-&none         &none         &none  &none  &none              &none    &kp C_AL_CALC  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &none
-                                   &none  &none              &none    &kp ENTER      &kp KP_NUMBER_0  &none
+&none  &none  &none  &none  &kp C_VOLUME_UP    &none    &kp KP_SLASH   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY  &none
+&none  &none  &none  &none  &kp C_VOLUME_DOWN  &none    &kp KP_MINUS   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &none
+&none  &none  &none  &none  &none              &none    &kp C_AL_CALC  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &none
+                     &none  &none              &none    &kp ENTER      &kp KP_NUMBER_0  &none
             >;
         };
 
