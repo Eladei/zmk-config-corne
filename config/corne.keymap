@@ -76,10 +76,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q                 &kp W  &kp E  &kp R             &kp T                           &kp Y                     &kp U            &kp I      &kp O    &hrm LEFT_BRACKET P          &none
-&none  &hrm_with_layers 3 A  &kp S  &kp D  &hrm LSHFT F      &kp G                           &kp H                     &hrm RSHFT J     &kp K      &kp L    &hrm SINGLE_QUOTE SEMICOLON  &none
-&none  &kp Z                 &kp X  &kp C  &kp V             &kp B                           &kp N                     &kp M            &kp COMMA  &kp DOT  &kp SLASH                    &none
-                                    &none  &hrm LCTRL SPACE  &hrm_with_layers 1 BACKSPACE    &hrm_with_layers 2 ENTER  &hrm RALT SPACE  &none
+&none  &kp Q    &kp W  &kp E  &kp R             &kp T              &kp Y        &kp U            &kp I      &kp O    &hrm LEFT_BRACKET P          &none
+&none  &lt 3 A  &kp S  &kp D  &hrm LSHFT F      &kp G              &kp H        &hrm RSHFT J     &kp K      &kp L    &hrm SINGLE_QUOTE SEMICOLON  &none
+&none  &kp Z    &kp X  &kp C  &kp V             &kp B              &kp N        &kp M            &kp COMMA  &kp DOT  &kp SLASH                    &none
+                       &none  &hrm LCTRL SPACE  &lt 1 BACKSPACE    &lt 2 ENTER  &hrm RALT SPACE  &none
             >;
         };
 
