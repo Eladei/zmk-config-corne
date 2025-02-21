@@ -117,10 +117,10 @@
 
         layer_experiment_col {
             bindings = <
-&trans  &trans  &trans  &trans  &kp T   &trans    &trans  &kp Y   &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &kp G   &trans    &trans  &kp H   &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &kp B   &trans    &trans  &kp N   &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp T              &trans    &trans  &kp Y          &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &hrm LEFT_SHIFT G  &trans    &trans  &hrm LSHIFT H  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp B              &trans    &trans  &kp N          &trans  &trans  &trans  &trans
+                        &trans  &trans             &trans    &trans  &trans         &trans
             >;
         };
     };
