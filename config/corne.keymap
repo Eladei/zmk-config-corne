@@ -75,10 +75,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q    &kp W  &lt 4 E  &kp R             &kp T              &kp Y        &kp U            &lt 4 I      &kp O    &hrm LEFT_BRACKET P          &none
-&none  &lt 3 A  &kp S  &lt 4 D  &hrm LSHFT F      &kp G              &kp H        &hrm RSHFT J     &lt 4 K      &kp L    &hrm SINGLE_QUOTE SEMICOLON  &none
-&none  &kp Z    &kp X  &lt 4 C  &kp V             &kp B              &kp N        &kp M            &lt 4 COMMA  &kp DOT  &kp SLASH                    &none
-                       &none    &hrm LCTRL SPACE  &lt 1 BACKSPACE    &lt 2 ENTER  &hrm RALT SPACE  &none
+&none  &kp Q    &kp W  &kp E  &kp R             &kp T              &kp Y        &kp U            &kp I      &kp O    &hrm LEFT_BRACKET P          &none
+&none  &lt 3 A  &kp S  &kp D  &hrm LSHFT F      &kp G              &kp H        &hrm RSHFT J     &kp K      &kp L    &hrm SINGLE_QUOTE SEMICOLON  &none
+&none  &kp Z    &kp X  &kp C  &kp V             &kp B              &kp N        &kp M            &kp COMMA  &kp DOT  &kp SLASH                    &none
+                       &none  &hrm LCTRL SPACE  &lt 1 BACKSPACE    &lt 2 ENTER  &hrm RALT SPACE  &none
             >;
         };
 
@@ -112,15 +112,6 @@
 &trans  &trans  &trans  &trans  &kp LSHIFT  &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
 &trans  &trans  &trans  &trans  &trans      &trans    &trans  &msc SCRL_UP    &trans          &msc SCRL_DOWN   &trans  &trans
                         &trans  &kp LCTRL   &trans    &trans  &trans          &trans
-            >;
-        };
-
-        layer_experiment_col {
-            bindings = <
-&trans  &trans  &trans  &trans  &kp T          &trans    &trans  &kp Y          &trans  &trans  &kp LEFT_BRACKET  &trans
-&trans  &trans  &trans  &trans  &hrm LSHIFT G  &trans    &trans  &hrm LSHIFT H  &trans  &trans  &kp SINGLE_QUOTE  &trans
-&trans  &trans  &trans  &trans  &kp B          &trans    &trans  &kp N          &trans  &trans  &kp SLASH         &trans
-                        &trans  &trans         &trans    &trans  &trans         &trans
             >;
         };
     };
